@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <div className="hero max-w-7xl w-full py-10 px-8 mx-auto flex items-center justify-between overflow-hidden border ">
+    <div className="hero max-w-7xl w-full py-10 px-8 mx-auto flex items-center justify-between overflow-hidden">
       <div>
         <h1 className="max-w-2xl">
           Apple Watch Ultra 3
@@ -23,10 +23,10 @@ export const Hero = () => {
           </a>
         </div>
       </div>
-      <div>
-        <div className="content">
+      <div className="block w-full max-w-80 h-[420px]">
+        <div className="content w-full h-full relative">
           <img src="/assets/hero/Ellipse.png" alt="" />
-          <img src="/assets/hero/ultra-case.png" alt="" width={200} />
+          <img src="/assets/hero/ultra-case.png" alt="" />
           <img src="/assets/hero/Stars 1.svg" alt="" />
           <img src="/assets/hero/Stars 2.svg" alt="" />
         </div>
