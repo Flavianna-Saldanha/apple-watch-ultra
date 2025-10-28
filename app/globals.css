@@ -10,8 +10,8 @@
 }
 
 :root {
-  --snitap-sun: #ffcd1e;
-  --snitap-sky-mid: #06b6d4;
+  --snitap-sun: #fc6d05;
+  --snitap-sky-mid: #244854;
   --snitap-sky-light: #67e8f9;
   --snitap-joy-mid: #db2777;
   --snitap-joy-light: #f472b6;
@@ -103,46 +103,12 @@ header {
 }
 
 .hero {
-  max-width: 80rem;
-  width: 100%;
-  padding: 2.5rem 2rem;
-  margin-inline: auto;
-
-  & h1 {
-    max-width: 40rem;
-  }
-
-  & h1 div {
-    display: inline-block;
-    overflow: hidden;
-    height: 5rem;
-    width: min-content;
-    vertical-align: bottom;
-  }
-
-  & h1 span:nth-child(1),
-  & h1 span:nth-child(4) {
-    color: var(--snitap-sky-mid);
-  }
-
-  & h1 span:nth-child(2) {
-    color: var(--snitap-joy-mid);
-  }
-
-  & h1 span:nth-child(3) {
-    color: var(--snitap-leaf-mid);
-  }
-
   & h1 span {
     display: block;
     animation: slideUp 6s infinite ease;
   }
 
   & .buttons {
-    display: flex;
-    gap: 2rem;
-    margin-top: 3rem;
-
     & .button {
       display: flex;
       align-items: center;
@@ -170,8 +136,8 @@ header {
     }
 
     & .shadow {
-      box-shadow: 0 2px 5px rgb(0, 0, 0, /0.1), 0 9px 9px rgb(0, 0, 0, /0.09),
-        0 28px 12px rgb(0, 0, 0, /0.05), 0 36px 15px rgb(0, 0, 0, /0.01);
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.1), 0 9px 9px rgb(0 0 0 / 0.09),
+        0 28px 12px rgb(0 0 0 / 0.05), 0 36px 15px rgb(0 0 0 / 0.01);
     }
   }
 }
