@@ -2,7 +2,7 @@ import { Hero } from "@/src/components/hero/Hero";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center gap-36">
       <header>
         <a href="#">
           <img src="/icone.png" alt="logo da iPhone" />

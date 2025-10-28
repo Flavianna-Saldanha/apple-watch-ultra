@@ -1,7 +1,7 @@
 export const Hero = () => {
   return (
     <div className="hero max-w-7xl w-full py-10 px-8 mx-auto flex items-center justify-between overflow-hidden">
-      <div>
+      <div className="inicio flex flex-col gap-7 ">
         <h1 className="max-w-2xl">
           Apple Watch Ultra 3
           <div className="inline-block overflow-hidden h-20 w-min align-bottom">
@@ -23,7 +23,7 @@ export const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="block w-full max-w-80 h-[420px]">
+      <div className="block w-full max-w-96 h-[420px]">
         <div className="content w-full h-full relative">
           <img src="/assets/hero/Ellipse.png" alt="" />
           <img src="/assets/hero/ultra-case.png" alt="" />

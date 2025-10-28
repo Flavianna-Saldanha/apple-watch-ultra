@@ -108,6 +108,10 @@ header {
     animation: slideUp 6s infinite ease;
   }
 
+  & .inicio {
+    margin-left: 15px;
+  }
+
   & .buttons {
     & .button {
       display: flex;
@@ -156,16 +160,19 @@ header {
       animation: slideIn 3s 200ms ease forwards;
     }
 
-    & img[src*="ultra-case"] {
+    & img[src*="ultra-case.png"] {
+      width: 330px;
       z-index: 1;
-
+      left: 5%;
+      top: 8%;
       transform: translateX(200%);
       animation: slideIn 3s ease forwards;
     }
 
-    & img[src*="Stars-1"] {
+    & img[src*="Stars 1.svg"] {
       max-width: 5.5rem;
-      top: 30%;
+      top: 10%;
+      left: 2%;
       z-index: 0;
 
       opacity: 0;
@@ -173,11 +180,10 @@ header {
       animation: slideIn 2s 800ms ease forwards, appear 100ms 800ms forwards;
     }
 
-    & img[src*="Stars-2"] {
+    & img[src*="Stars 2.svg"] {
       max-width: 2.5rem;
-      right: 0;
-      bottom: 35%;
-
+      right: 5%;
+      bottom: 20%;
       transform: translateX(400%);
       animation: slideIn 2.2s 800ms ease forwards;
     }
