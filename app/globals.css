@@ -108,10 +108,6 @@ header {
     animation: slideUp 6s infinite ease;
   }
 
-  & .inicio {
-    margin-left: 15px;
-  }
-
   & .buttons {
     & .button {
       display: flex;
@@ -271,5 +267,11 @@ header {
   }
   100% {
     transform: translateY(-15rem);
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero .inicio {
+    margin-left: 15px;
   }
 }

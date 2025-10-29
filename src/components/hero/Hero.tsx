@@ -1,8 +1,8 @@
 export const Hero = () => {
   return (
-    <div className="hero max-w-7xl w-full py-10 px-8 mx-auto flex items-center justify-between overflow-hidden">
-      <div className="inicio flex flex-col gap-7 ">
-        <h1 className="max-w-2xl">
+    <div className="hero max-w-7xl w-full py-10 px-8 mx-auto flex flex-col-reverse items-center gap-10 overflow-hidden xl:flex-row xl:justify-between">
+      <div className="inicio flex flex-col items-center gap-7 xl:items-start">
+        <h1 className="max-w-2xl text-center xl:text-start">
           Apple Watch Ultra 3
           <div className="inline-block overflow-hidden h-20 w-min align-bottom">
             <span className="text-(--snitap-sky-mid)">imparável</span>
@@ -11,7 +11,7 @@ export const Hero = () => {
             <span className="text-(--snitap-sky-mid)">imparável</span>
           </div>
         </h1>
-        <div className="buttons flex gap-8 mt-12">
+        <div className="buttons flex flex-col gap-8 mt-12 xl:flex-row">
           <a href="#" className="button buy shadow">
             <img src="/assets/icons/shopping-bag.svg" alt="" /> COMPRAR AGORA
           </a>
