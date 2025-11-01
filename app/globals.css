@@ -186,6 +186,38 @@ header {
   }
 }
 
+.banner {
+  padding-block: 2.5rem;
+
+  .scroller {
+    padding-block: 1rem;
+  }
+
+  .rolling {
+    animation: rolling 2s linear infinite;
+  }
+
+  .bg-gradient-animate {
+    background: linear-gradient(45deg, var(--snitap-sun), var(--background));
+    background-size: 400%;
+    background-position: 0 50%;
+
+    animation: bg-gradient 20s ease infinite;
+  }
+}
+
+@keyframes bg-gradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes rolling {
+  to {
+    transform: translateX(-132px);
+  }
+}
+
 @keyframes slideIn {
   50% {
     transform: translateX(-20px);

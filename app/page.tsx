@@ -17,6 +17,29 @@ export default function Home() {
       </header>
 
       <Hero />
+
+      <section className="banner w-full overflow-hidden">
+        <div className="scroller bg-gradient-animate w-full overflow-hidden">
+          <div className="rolling flex gap-6">
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+            <img src="/assets/banner.png" alt="" width={140} />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
