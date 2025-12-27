@@ -47,30 +47,32 @@ export default function Home() {
           <Image
             src="/assets/hero/hero.png"
             alt="imagem de um iPhone"
-            width={839}
-            height={644}
+            width={739}
+            height={544}
           />
         </div>
 
         <div className="flex flex-col items-center justify-center">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 lg:relative lg:-top-36 lg:right-[378px]">
             <Image
               src="/icone.png"
               alt="logo Apple Watch"
               width={30}
               height={30}
             />
-            <p className="uppercase">Watch Ultra 3</p>
+            <p className="uppercase lg:text-2xl">Watch Ultra 3</p>
           </div>
 
-          <p className="text-lg font-semibold">Imparável.</p>
+          <p className="text-lg font-semibold lg:relative lg:text-[50px] lg:-top-[152px] lg:right-[360px]">
+            Imparável.
+          </p>
         </div>
 
-        <div className="h-20 flex items-center w-full justify-around bg-gray-100">
-          <p className="font-bold w-52 text-start text-gray-800">
+        <div className="h-20 flex items-center w-full justify-around bg-gray-100 lg:bg-transparent lg:relative lg:bottom-[215px] lg:right-28">
+          <p className="font-bold w-52 text-start text-gray-800 lg:w-full">
             A partir de R$ 874,92/mês ou R$ 10.499*
           </p>
-          <button className="text-white h-9 w-24 bg-blue-500 rounded-full">
+          <button className="text-white h-9 w-24 bg-blue-500 rounded-full lg:relative lg:left-32">
             Comprar
           </button>
         </div>
