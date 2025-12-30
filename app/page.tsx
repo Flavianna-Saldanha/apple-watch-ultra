@@ -1,9 +1,10 @@
+import Destaques from "@/src/components/destaques/Destaques";
 import { Hero } from "@/src/components/hero/Hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center gap-36">
+    <div className="flex flex-col items-center">
       <header>
         <a href="#">
           <img src="/icone.png" alt="logo da iPhone" />
@@ -77,6 +78,8 @@ export default function Home() {
           </button>
         </div>
       </section>
+
+      <Destaques />
     </div>
   );
 }

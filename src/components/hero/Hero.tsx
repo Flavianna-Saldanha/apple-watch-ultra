@@ -1,8 +1,8 @@
 export const Hero = () => {
   return (
-    <div className="hero max-w-7xl w-full py-10 px-8 mx-auto flex flex-col-reverse items-center gap-10 overflow-visible xl:overflow-hidden xl:flex-row xl:justify-between">
+    <div className="hero h-screen max-w-7xl w-full py-10 px-8 mx-auto flex flex-col-reverse items-center gap-10 overflow-visible xl:overflow-hidden xl:flex-row xl:justify-between">
       <div className="inicio flex flex-col items-center gap-7 xl:items-start">
-        <h1 className="max-w-2xl text-center xl:text-start">
+        <h1 className="w-4/5 text-center lg:w-2xl xl:text-start">
           Apple Watch Ultra 3
           <div className="inline-block overflow-hidden h-20 w-min align-bottom">
             <span className="text-(--snitap-sky-mid)">imparável</span>
