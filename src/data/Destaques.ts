@@ -44,4 +44,25 @@ export const destaquesList: DestaquesType[] = [
     description:
       "O app Sinais Vitais identifica a variação típica das suas métricas de saúde durante a noite, como frequência cardíaca e respiratória, temperatura do pulso, oxigênio no sangue e duração do sono14. Dê uma olhada rápida para ver as mudanças ao longo do tempo.",
   },
+  {
+    id: 7,
+    img: "/assets/images/7.jpg",
+    title: "Baixe mapas offline.",
+    description:
+      "Planeje e baixe um mapa do seu percurso no iPhone antes mesmo de sair. Ele será sincronizado automaticamente com o seu relógio. Assim você sabe sempre para onde ir. Mesmo quando a ideia é dar um perdido na civilização.",
+  },
+  {
+    id: 8,
+    img: "/assets/images/8.jpg",
+    title: "Crie pontos intermediários no app Bússola.",
+    description:
+      "Marque sua localização atual ou registre locais importantes como o início da trilha ou acampamento. Os pontos intermediários vão marcar automaticamente os lugares mais recentes onde você passou dentro das redes disponíveis.",
+  },
+  {
+    id: 9,
+    img: "/assets/images/9.jpg",
+    title: "Vá fundo nas informações de mergulho.",
+    description:
+      "Desenvolvido em parceria com a Huish Outdoors, o app Oceanic+ transforma o Ultra 3 em um verdadeiro computador de mergulho usando o algoritmo Bühlmann de descompressão11. É só girar a Digital Crown para ter acesso a dados importantes na hora. Equipado com todos os alertas de segurança que você precisa, o app calcula e monitora seus parâmetros de mergulho constantemente.",
+  },
 ];

@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center gap-6 text-center">
+      <section className="flex flex-col items-center gap-6 text-center h-screen justify-center">
         <div>
           <Image
             src="/assets/hero/hero.png"
