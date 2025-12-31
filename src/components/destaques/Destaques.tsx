@@ -33,50 +33,57 @@ export const Destaques = () => {
   };
 
   return (
-    <div className="w-full flex justify-center">
-      <div
-        ref={containerRef}
-        className="relative overflow-hidden w-full max-w-7xl"
-      >
+    <div>
+      <h1>
+        {" "}
+        Comece com um passo{" "}
+        <strong className="text-(--snitap-sun)">à frente.</strong>{" "}
+      </h1>
+      <div className="w-full flex justify-center">
         <div
-          className="flex gap-10 transition-transform duration-500 ease-out"
-          style={{
-            transform: `translateX(-${getTranslateX()}px)`,
-          }}
+          ref={containerRef}
+          className="relative overflow-hidden w-full max-w-7xl"
         >
-          {[1, 2, 3, 4, 5, 6].map((n) => (
-            <div key={n} className="shrink-0">
-              <Image
-                src={`/assets/images/${n}.jpg`}
-                alt="imagem de um iPhone"
-                width={372}
-                height={452}
-                className="rounded-3xl"
-              />
-              <p className="w-80 text-gray-700 mt-4">
-                <strong className="text-black">Conteúdo do card {n}. </strong>
-                Texto original mantido.
-              </p>
-            </div>
-          ))}
-        </div>
-
-        <div className="h-20 flex justify-center gap-4 relative top-8 lg:left-[430px]">
-          <button
-            onClick={() => setIndex((i) => Math.max(i - 1, 0))}
-            disabled={index === 0}
-            className="w-10 h-10 rounded-full bg-zinc-800 text-white disabled:opacity-40"
+          <div
+            className="flex gap-10 transition-transform duration-500 ease-out"
+            style={{
+              transform: `translateX(-${getTranslateX()}px)`,
+            }}
           >
-            ‹
-          </button>
+            {[1, 2, 3, 4, 5, 6].map((n) => (
+              <div key={n} className="shrink-0">
+                <Image
+                  src={`/assets/images/${n}.jpg`}
+                  alt="imagem de um iPhone"
+                  width={372}
+                  height={452}
+                  className="rounded-3xl"
+                />
+                <p className="w-80 text-gray-700 mt-4">
+                  <strong className="text-black">Conteúdo do card {n}. </strong>
+                  Texto original mantido.
+                </p>
+              </div>
+            ))}
+          </div>
 
-          <button
-            onClick={() => setIndex((i) => Math.min(i + 1, maxIndex))}
-            disabled={index === maxIndex}
-            className="w-10 h-10 rounded-full bg-zinc-800 text-white disabled:opacity-40"
-          >
-            ›
-          </button>
+          <div className="h-20 flex justify-center gap-4 relative top-8 lg:left-[430px]">
+            <button
+              onClick={() => setIndex((i) => Math.max(i - 1, 0))}
+              disabled={index === 0}
+              className="w-10 h-10 rounded-full bg-zinc-800 text-white disabled:opacity-40"
+            >
+              ‹
+            </button>
+
+            <button
+              onClick={() => setIndex((i) => Math.min(i + 1, maxIndex))}
+              disabled={index === maxIndex}
+              className="w-10 h-10 rounded-full bg-zinc-800 text-white disabled:opacity-40"
+            >
+              ›
+            </button>
+          </div>
         </div>
       </div>
     </div>
