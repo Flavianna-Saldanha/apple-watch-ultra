@@ -1,5 +1,5 @@
 import Destaques from "@/src/components/destaques/Destaques";
-import Detalhes from "@/src/components/detalhes/Detalhes";
+import { Detalhes } from "@/src/components/detalhes/Detalhes";
 import { Hero } from "@/src/components/hero/Hero";
 import Image from "next/image";
 
