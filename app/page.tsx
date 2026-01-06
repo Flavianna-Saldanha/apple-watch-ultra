@@ -70,7 +70,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="h-20 flex items-center w-full justify-around bg-gray-100 lg:bg-transparent lg:relative lg:bottom-[215px] lg:right-28">
+        <div className="h-20 flex items-center w-full justify-around bg-gray-100 lg:bg-transparent lg:relative lg:bottom-[195px] lg:right-28">
           <p className="font-bold w-52 text-start text-gray-800 lg:w-full">
             A partir de R$ 874,92/mês ou R$ 10.499*
           </p>

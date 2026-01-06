@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <div className="hero h-[80vh] max-w-7xl w-full py-10 px-8 mx-auto flex flex-col-reverse items-center gap-10 overflow-visible xl:overflow-hidden xl:flex-row xl:justify-between">
+    <div className="hero h-auto lg:h-[80vh] max-w-7xl w-full py-10 px-8 mx-auto flex flex-col-reverse items-center gap-10 overflow-visible xl:overflow-hidden xl:flex-row xl:justify-between">
       <div className="inicio flex flex-col items-center gap-7 xl:items-start">
         <h1 className="w-4/5 text-center lg:w-2xl xl:text-start">
           Apple Watch Ultra 3
