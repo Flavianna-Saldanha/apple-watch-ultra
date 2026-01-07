@@ -5,8 +5,7 @@ export const DetalhesList: DetalhesType[] = [
   {
     id: 1,
     title: "Cores. ",
-    description:
-      "Escolha entre titânio aeroespacial natural ou preto. Ultra 3 preto.",
+    description: "Escolha entre titânio aeroespacial natural ou preto.",
   },
   {
     id: 2,
