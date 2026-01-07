@@ -22,7 +22,6 @@ export const Destaques = () => {
     return () => window.removeEventListener("resize", updateItemsPerPage);
   }, []);
 
-  // ⛔ evita render errado no mobile
   if (itemsPerPage === null) return null;
 
   const handleNext = () => {
@@ -43,29 +42,31 @@ export const Destaques = () => {
   );
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4">
+    <section className="w-full max-w-7xl mx-auto px-4">
+      {/* TÍTULO */}
       <p className="h-20 text-2xl text-center lg:text-start lg:text-6xl lg:h-36">
         Comece com um passo{" "}
         <strong className="text-[var(--snitap-sun)]">à frente.</strong>
       </p>
 
-      <div className="relative w-full">
+      {/* CONTAINER FIXO */}
+      <div className="relative w-full min-h-[620px]">
         {/* LISTA */}
-        <div className="flex justify-center gap-10 overflow-hidden">
+        <div className="flex justify-center gap-10 overflow-hidden pb-24">
           {visibleItems.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col gap-5 items-center w-full"
+              className="flex flex-col gap-6 items-center w-full"
             >
               <Image
                 src={item.img}
-                alt="imagem de um iPhone"
+                alt={item.title}
                 width={372}
                 height={452}
                 className="w-full max-w-[372px] rounded-3xl"
               />
 
-              <p className="w-full max-w-[372px] text-gray-700 mt-4 text-justify">
+              <p className="w-full max-w-[372px] text-gray-700 text-justify">
                 <strong className="text-black">{item.title} </strong>
                 {item.description}
               </p>
@@ -73,12 +74,19 @@ export const Destaques = () => {
           ))}
         </div>
 
-        {/* SETAS */}
-        <div className="h-20 flex justify-center gap-4 mt-6 lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2">
+        {/* SETAS FIXAS */}
+        <div
+          className="
+            absolute bottom-6
+            left-1/2 -translate-x-1/2
+            flex gap-4
+            lg:left-auto lg:translate-x-0 lg:right-0
+          "
+        >
           <button
             onClick={handlePrev}
             disabled={startIndex === 0}
-            className="w-10 h-10 rounded-full bg-zinc-800 text-white disabled:opacity-40"
+            className="w-10 h-10 rounded-full bg-zinc-800 text-white disabled:opacity-40 transition"
           >
             ‹
           </button>
@@ -86,13 +94,13 @@ export const Destaques = () => {
           <button
             onClick={handleNext}
             disabled={startIndex + itemsPerPage >= TOTAL_ITEMS}
-            className="w-10 h-10 rounded-full bg-zinc-800 text-white disabled:opacity-40"
+            className="w-10 h-10 rounded-full bg-zinc-800 text-white disabled:opacity-40 transition"
           >
             ›
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
