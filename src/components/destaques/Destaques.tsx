@@ -46,7 +46,7 @@ export const Destaques = () => {
       {/* TÍTULO */}
       <p className="h-20 text-2xl text-center lg:text-start lg:text-6xl lg:h-36">
         Comece com um passo{" "}
-        <strong className="text-[var(--snitap-sun)]">à frente.</strong>
+        <strong className="text-(--snitap-sun)]">à frente.</strong>
       </p>
 
       {/* CONTAINER FIXO */}

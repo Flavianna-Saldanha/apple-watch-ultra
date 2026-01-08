@@ -1,3 +1,4 @@
+import { Baterry } from "@/src/components/battery/baterry";
 import Destaques from "@/src/components/destaques/Destaques";
 import { Detalhes } from "@/src/components/detalhes/Detalhes";
 import { Hero } from "@/src/components/hero/Hero";
@@ -82,6 +83,7 @@ export default function Home() {
 
       <Destaques />
       <Detalhes />
+      <Baterry />
     </div>
   );
 }
