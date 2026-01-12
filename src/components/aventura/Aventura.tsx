@@ -14,7 +14,7 @@ export const Aventura = () => {
         <div
           className="
             text-(--snitap-sun)
-            text-4xl
+            text-5xl
             text-center
             font-bold
             mx-auto
