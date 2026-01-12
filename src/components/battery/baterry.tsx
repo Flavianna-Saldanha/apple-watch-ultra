@@ -15,9 +15,9 @@ export const Baterry = () => {
             />
           </div>
 
-          <h2 className="text-3xl font-semibold lg:text-8xl">
+          <div className="text-3xl font-semibold lg:text-6xl">
             Bateria recordista em duração.
-          </h2>
+          </div>
 
           <p className="text-base text-zinc-400 lg:text-2xl lg:w-[750px]">
             Não para, não para, não para. A bateria do Apple Watch Ultra 3 foi

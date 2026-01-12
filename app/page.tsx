@@ -1,3 +1,4 @@
+import Aventura from "@/src/components/aventura/Aventura";
 import { Baterry } from "@/src/components/battery/baterry";
 import Destaques from "@/src/components/destaques/Destaques";
 import { Detalhes } from "@/src/components/detalhes/Detalhes";
@@ -84,6 +85,7 @@ export default function Home() {
       <Destaques />
       <Detalhes />
       <Baterry />
+      <Aventura />
     </div>
   );
 }
