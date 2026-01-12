@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Aventura = () => {
   return (
-    <section className="max-w-11/12 relative lg:w-full overflow-hidden pb-[100px]">
+    <section className="w-11/12 relative overflow-hidden pb-[100px] lg:w-full">
       <div
         className="
           flex flex-col gap-8
