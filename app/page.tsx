@@ -1,6 +1,7 @@
 import Aventura from "@/src/components/aventura/Aventura";
 import { Baterry } from "@/src/components/battery/baterry";
 import Destaques from "@/src/components/destaques/Destaques";
+import DestaquesTwo from "@/src/components/destaques/DestaquesTwo";
 import { Detalhes } from "@/src/components/detalhes/Detalhes";
 import { Hero } from "@/src/components/hero/Hero";
 import Image from "next/image";
@@ -86,6 +87,7 @@ export default function Home() {
       <Detalhes />
       <Baterry />
       <Aventura />
+      <DestaquesTwo />
     </div>
   );
 }

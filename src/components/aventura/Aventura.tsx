@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export const Aventura = () => {
   return (
-    <section className="w-10/12 relative lg:w-full overflow-hidden">
+    <section className="w-10/12 relative lg:w-full overflow-hidden pb-[100px]">
       <div
         className="
-        flex flex-col gap-8
+          flex flex-col gap-8
           px-4 pt-10
           lg:absolute lg:top-0 lg:left-0 lg:pt-20 lg:pl-52
           max-w-full
@@ -20,7 +20,7 @@ export const Aventura = () => {
             mx-auto
             w-full
             lg:text-left
-            lg:text-8xl
+            lg:text-7xl
             lg:w-[800px]
           "
         >
