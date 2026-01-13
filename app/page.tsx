@@ -88,6 +88,29 @@ export default function Home() {
       <Baterry />
       <Aventura />
       <DestaquesTwo />
+
+      <section className="pt-32">
+        <div>
+          <div className="flex flex-col items-center gap-10">
+            <Image
+              src="/assets/images/compare_ultra3.png"
+              alt=""
+              width={294}
+              height={327}
+            />
+            <div className="flex flex-col items-center gap-3 w-72 text-center">
+              <p className="text-(--snitap-sun) font-bold">Novo</p>
+              <div className="text-3xl font-bold">Apple Watch Ultra 3</div>
+              <p>O relógio definitivo para esportes e aventura.</p>
+              <div className="font-semibold text-[17px]">
+                A partir de R$ 874,92/mês ou R$ 10.499*
+              </div>
+              <button className="cursor-pointer text-blue-700">Comprar</button>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </section>
     </div>
   );
 }
