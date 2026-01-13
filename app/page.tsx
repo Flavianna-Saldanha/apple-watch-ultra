@@ -108,6 +108,8 @@ export default function Home() {
               <button className="cursor-pointer text-blue-700">Comprar</button>
             </div>
           </div>
+          <br />
+          <hr className="bg-gray-400 h-0.5 border-0" />
           <div></div>
         </div>
       </section>
