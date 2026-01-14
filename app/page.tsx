@@ -4,6 +4,7 @@ import Destaques from "@/src/components/destaques/Destaques";
 import DestaquesTwo from "@/src/components/destaques/DestaquesTwo";
 import { Detalhes } from "@/src/components/detalhes/Detalhes";
 import { Hero } from "@/src/components/hero/Hero";
+import { MeioAmbiente } from "@/src/components/meio-ambiente/meioAmbiente";
 import { ExplorandoList } from "@/src/data/ExplorandoList";
 import Image from "next/image";
 
@@ -134,6 +135,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <MeioAmbiente />
     </div>
   );
 }
