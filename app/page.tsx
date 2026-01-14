@@ -4,6 +4,7 @@ import Destaques from "@/src/components/destaques/Destaques";
 import DestaquesTwo from "@/src/components/destaques/DestaquesTwo";
 import { Detalhes } from "@/src/components/detalhes/Detalhes";
 import { Hero } from "@/src/components/hero/Hero";
+import { ExplorandoList } from "@/src/data/ExplorandoList";
 import Image from "next/image";
 
 export default function Home() {
@@ -109,8 +110,28 @@ export default function Home() {
             </div>
           </div>
           <br />
-          <hr className="bg-gray-400 h-0.5 border-0" />
-          <div></div>
+          <div className="flex justify-center">
+            <hr className="w-11/12 bg-gray-400 h-0.5 border-0 lg:w-full" />
+          </div>
+          <div
+            className="flex flex-col gap-2
+             lg:grid lg:grid-cols-2"
+          >
+            {ExplorandoList.map((item) => (
+              <div
+                key={item.id}
+                className="flex flex-col items-center gap-3 p-4 w-72"
+              >
+                <Image src={item.img} alt="" width={30} height={30} />
+
+                <ul className="w-full text-zinc-700 text-center text-xs flex flex-col gap-3">
+                  {item.description.map((text, i) => (
+                    <li key={i}>{text}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </div>
