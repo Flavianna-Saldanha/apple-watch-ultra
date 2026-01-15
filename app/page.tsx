@@ -137,6 +137,13 @@ export default function Home() {
       </section>
 
       <MeioAmbiente />
+
+      <footer>
+        <div>
+          <div>Apple Watch</div>
+          <div></div>
+        </div>
+      </footer>
     </div>
   );
 }

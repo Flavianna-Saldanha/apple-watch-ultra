@@ -3,15 +3,15 @@ import Image from "next/image";
 export const MeioAmbiente = () => {
   return (
     <div className="w-full bg-zinc-100 py-24 flex justify-center">
-      <div className="w-11/12 max-w-7xl mx-auto flex flex-col">
+      <div className="w-11/12 lg:max-w-7xl mx-auto flex flex-col">
         <div className="pb-20">
-          <div className="text-5xl font-semibold max-w-2xl">
+          <div className="text-4xl font-semibold lg:text-5xl lg:max-w-2xl">
             O Apple Watch Ultra 3 <br /> e o meio ambiente.
           </div>
         </div>
 
-        <div className="flex justify-between gap-8">
-          <div className="bg-white rounded-3xl p-10 w-[400px] min-h-[220px] flex flex-col justify-between">
+        <div className="flex flex-col items-center gap-8 xl:flex-row lg:justify-between">
+          <div className="w-96 bg-white rounded-3xl p-10 lg:w-[400px] min-h-[220px] flex flex-col justify-between">
             <div className="flex flex-col gap-6">
               <Image
                 src="/assets/icons/reciclavel.png"
@@ -35,7 +35,7 @@ export const MeioAmbiente = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl p-10 w-[400px] min-h-[220px] flex flex-col justify-between">
+          <div className="w-96 bg-white rounded-3xl p-10 lg:w-[400px] min-h-[220px] flex flex-col justify-between">
             <div className="flex flex-col gap-6">
               <Image
                 src="/assets/icons/energia.png"
@@ -59,7 +59,7 @@ export const MeioAmbiente = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl p-10 w-[400px] min-h-[220px] flex flex-col justify-between">
+          <div className="w-96 bg-white rounded-3xl p-10 lg:w-[400px] min-h-[220px] flex flex-col justify-between">
             <div className="flex flex-col gap-6">
               <Image
                 src="/assets/icons/caixa-de-embalagem.png"
