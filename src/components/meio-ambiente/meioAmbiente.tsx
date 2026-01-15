@@ -5,7 +5,7 @@ export const MeioAmbiente = () => {
     <div className="w-full bg-zinc-100 py-24 flex justify-center">
       <div className="w-11/12 lg:max-w-7xl mx-auto flex flex-col">
         <div className="pb-20">
-          <div className="text-4xl font-semibold lg:text-5xl lg:max-w-2xl">
+          <div className="text-3xl font-semibold lg:text-5xl lg:max-w-2xl">
             O Apple Watch Ultra 3 <br /> e o meio ambiente.
           </div>
         </div>

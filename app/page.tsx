@@ -139,9 +139,70 @@ export default function Home() {
       <MeioAmbiente />
 
       <footer>
-        <div>
-          <div>Apple Watch</div>
-          <div></div>
+        <div className="py-10 px-5 flex flex-col gap-8 max-w-7xl mx-auto">
+          <div className="text-lg font-bold text-center lg:text-left">
+            Apple Watch
+          </div>
+
+          <hr className="w-full bg-gray-300 h-px border-0" />
+
+          <div
+            className="flex flex-col items-center gap-6 text-zinc-500 text-sm
+                    lg:flex-row lg:justify-between lg:items-center"
+          >
+            <p className="text-center lg:text-left">
+              © 2026 Apple Inc. Todos os direitos reservados.
+            </p>
+
+            <ul
+              className="flex flex-col items-center gap-3 text-center
+                     sm:flex-row sm:gap-0"
+            >
+              <li>
+                <a
+                  href="https://www.apple.com/br/legal/privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+              px-4 py-1
+              hover:text-black transition-colors
+              sm:border-r sm:border-zinc-300
+            "
+                >
+                  Política de Privacidade
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.apple.com/br/shop/browse/open/salespolicies"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+              px-4 py-1
+              hover:text-black transition-colors
+              sm:border-r sm:border-zinc-300
+            "
+                >
+                  Política de Vendas
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.apple.com/br/legal/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+              px-4 py-1
+              hover:text-black transition-colors
+            "
+                >
+                  Avisos Legais
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </footer>
     </div>
