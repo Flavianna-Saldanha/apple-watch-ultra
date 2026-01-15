@@ -13,11 +13,19 @@ export const Hero = () => {
         </h1>
 
         <div className="buttons flex flex-col gap-8 mt-12 xl:flex-row">
-          <a href="#" className="button buy shadow">
+          <a
+            href="https://www.apple.com/br/shop/buy-watch/apple-watch-ultra"
+            className="button buy shadow"
+            target="blank"
+          >
             <img src="/assets/icons/shopping-bag.svg" alt="" /> COMPRAR AGORA
           </a>
 
-          <a href="#" className="button play">
+          <a
+            href="https://www.instagram.com/reel/DR4py5qjevb/"
+            className="button play"
+            target="blank"
+          >
             <span className="shadow">
               <img src="/assets/icons/play.svg" alt="" />
             </span>

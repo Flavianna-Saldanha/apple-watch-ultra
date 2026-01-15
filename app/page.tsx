@@ -79,9 +79,15 @@ export default function Home() {
           <p className="font-bold w-52 text-start text-gray-800 lg:w-full">
             A partir de R$ 874,92/mês ou R$ 10.499*
           </p>
-          <button className="text-white h-9 w-24 bg-blue-500 rounded-full lg:relative lg:left-32">
-            Comprar
-          </button>
+          <a
+            href="https://www.apple.com/br/shop/buy-watch/apple-watch-ultra"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="cursor-pointer text-white h-9 w-24 bg-blue-500 rounded-full lg:relative lg:left-32">
+              Comprar
+            </button>
+          </a>
         </div>
       </section>
 
