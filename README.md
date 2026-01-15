@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Apple Watch Ultra 3
 
-## Getting Started
+## 📌 Visão Geral
 
-First, run the development server:
+Este projeto consiste no desenvolvimento de uma **interface web conceitual inspirada no Apple Watch Ultra**, criada com o objetivo de demonstrar habilidades em **desenvolvimento frontend moderno**, organização de componentes, design responsivo e atenção à experiência do usuário.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O foco principal não é a reprodução comercial do produto, mas sim a **exploração de UI/UX**, animações suaves e construção de layouts consistentes utilizando tecnologias atuais do ecossistema React.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Objetivos do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Aplicar boas práticas de organização e reutilização de componentes
+* Trabalhar **layout responsivo** e alinhamento avançado
+* Explorar animações e transições para melhorar a experiência do usuário
+* Criar um projeto sólido para **portfólio profissional**
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🖥️ Funcionalidades
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Interface inspirada em produto premium
+* Layout totalmente responsivo
+* Componentes reutilizáveis
+* Estrutura escalável e organizada
+* Animações e interações visuais suaves
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tecnologias Utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **React**
+* **Next.js**
+* **Tailwind CSS**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📬 Entre em Contato  
+
+Caso tenha interesse em conversar sobre projetos, parcerias ou oportunidades, entre em contato comigo:  
+
+- **Email**: flaviannasaldanhadev@gmail.com  
+- **LinkedIn**: https://www.linkedin.com/in/flavianna-saldanha/
+- **Site do projeto**: https://apple-watch-ultra.vercel.app/
+
+---
+
+Espero que goste do meu trabalho! 😊
